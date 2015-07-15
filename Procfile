@@ -1,0 +1,1 @@
+web: gunicorn campsiteapp.wsgi --log-file -
