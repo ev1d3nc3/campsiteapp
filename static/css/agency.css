@@ -281,6 +281,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
+    text-shadow: 4px 4px 0px #000;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     font-style: italic;
@@ -290,10 +291,20 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
+    text-shadow: 6px 6px 0px #000;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+}
+
+header .intro-text .intro-thirdline {
+    margin-bottom: 60px;
+    text-shadow: 3px 3px 0px #000;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 10px;
 }
 
 @media(min-width:768px) {
@@ -345,6 +356,25 @@ section h3.section-subheading {
     }
 }
 
+.services-icon-1 a:hover,
+.services-icon-1 a:focus {
+    outline: 0;
+    color: #CD2900;
+}
+
+.services-icon-2 a:hover,
+.services-icon-2 a:focus {
+    outline: 0;
+    color: #CD2900;
+}
+
+.services-icon-3 a:hover,
+.services-icon-3 a:focus {
+    outline: 0;
+    color: #CD2900;
+}
+
+}
 .service-heading {
     margin: 15px 0;
     text-transform: none;
