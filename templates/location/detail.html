@@ -8,6 +8,9 @@
 		{% if location.hours %}<p><b>Hours: </b>{{ location.hours }}</p>{% endif %}
 		<h3>{{ location.title }}</h3>
 		{% if location.description %}<p>{{ location.description }}</p>{% endif %}
+		{% if location.image_file %}
+			 <img class="img-responsive" src="{{ location.image_file.url }}"></img>
+			 {% endif %}
 	</div>
 	</div>
 	<div class="col-md-2"></div>
